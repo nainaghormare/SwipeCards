@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="BottomView" customClass="BottomView" customModule="VideoDating" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZZT-ug-iD0">
+                    <rect key="frame" x="30.000000000000007" y="18.333333333333336" width="91.666666666666686" height="23.333333333333336"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="CONTACT US">
+                                <attributes>
+                                    <color key="NSColor" red="0.26666666666666666" green="0.0" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="10" name="Montserrat-Medium"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zpm-n8-IDp">
+                    <rect key="frame" x="141.66666666666666" y="18.333333333333336" width="91.666666666666657" height="23.333333333333336"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="PARTNERSHIPS">
+                                <attributes>
+                                    <color key="NSColor" red="0.26666666666666666" green="0.0" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="10" name="Montserrat-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uC-xu-LVP">
+                    <rect key="frame" x="253.33333333333334" y="18.333333333333336" width="91.666666666666657" height="23.333333333333336"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="ENDORSEMENTS">
+                                <attributes>
+                                    <color key="NSColor" red="0.26666666666666666" green="0.0" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="10" name="Montserrat-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="width" secondItem="7uC-xu-LVP" secondAttribute="width" id="5OA-8r-01d"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="width" secondItem="ZZT-ug-iD0" secondAttribute="width" id="CoL-eR-TVg"/>
+                <constraint firstItem="7uC-xu-LVP" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="HVn-3c-a3w"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="KCc-a0-skx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7uC-xu-LVP" secondAttribute="trailing" constant="30" id="Plu-1g-2Vt"/>
+                <constraint firstItem="ZZT-ug-iD0" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="W2c-Ce-JNW"/>
+                <constraint firstItem="ZZT-ug-iD0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="aXS-UZ-v23"/>
+                <constraint firstItem="ZZT-ug-iD0" firstAttribute="width" secondItem="7uC-xu-LVP" secondAttribute="width" id="bva-nw-J4v"/>
+                <constraint firstItem="7uC-xu-LVP" firstAttribute="leading" secondItem="Zpm-n8-IDp" secondAttribute="trailing" constant="20" id="dFu-eh-Z2b"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="leading" secondItem="ZZT-ug-iD0" secondAttribute="trailing" constant="20" id="iBw-B1-Who"/>
+                <constraint firstItem="ZZT-ug-iD0" firstAttribute="height" secondItem="7uC-xu-LVP" secondAttribute="height" id="lwg-nA-Be5"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="mAC-cj-ozH"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="height" secondItem="ZZT-ug-iD0" secondAttribute="height" id="nxF-EM-Kbk"/>
+                <constraint firstItem="Zpm-n8-IDp" firstAttribute="height" secondItem="7uC-xu-LVP" secondAttribute="height" id="paX-fQ-Vdb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnContactUS" destination="ZZT-ug-iD0" id="PIl-dC-fP5"/>
+                <outlet property="btnEndorsement" destination="7uC-xu-LVP" id="4Uh-VI-Rv8"/>
+                <outlet property="btnPartnership" destination="Zpm-n8-IDp" id="cWF-MF-VKO"/>
+            </connections>
+            <point key="canvasLocation" x="132.1875" y="147.88732394366198"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextLTPro-Demi.otf">
+            <string>AvenirNextLTPro-Demi</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardQuestionView" customModule="VideoDating" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="198"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVK-sl-beq" customClass="ShadowView" customModule="VideoDating" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="198"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Choose the 1 you prefer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zw1-NF-8ZJ">
+                            <rect key="frame" x="25" y="22" width="305" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="L2c-PN-8n0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNextLTPro-Demi" family="Avenir Next LT Pro" pointSize="18"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIg-QR-icw" customClass="CustomButton" customModule="VideoDating" customModuleProvider="target">
+                            <rect key="frame" x="42" y="53" width="271" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="KYC-RY-7U5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="1. Choice 1">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColorButton">
+                                    <color key="value" red="0.97647058819999999" green="0.61568627450000002" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" tag="2000" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gx-Pv-acf" customClass="CustomButton" customModule="VideoDating" customModuleProvider="target">
+                            <rect key="frame" x="42" y="115" width="271" height="52"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="2. Choice 2">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColorButton">
+                                    <color key="value" red="0.97647058819999999" green="0.61568627450000002" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="2Gx-Pv-acf" firstAttribute="top" secondItem="AIg-QR-icw" secondAttribute="bottom" constant="10" id="0Yz-ZP-BI4"/>
+                        <constraint firstAttribute="trailing" secondItem="Zw1-NF-8ZJ" secondAttribute="trailing" constant="25" id="DQB-a7-mYu"/>
+                        <constraint firstItem="Zw1-NF-8ZJ" firstAttribute="top" secondItem="CVK-sl-beq" secondAttribute="top" constant="22" id="LlL-q4-vVx"/>
+                        <constraint firstAttribute="bottom" secondItem="2Gx-Pv-acf" secondAttribute="bottom" constant="31" id="Mw6-Uc-f6m"/>
+                        <constraint firstItem="AIg-QR-icw" firstAttribute="centerX" secondItem="Ogz-dn-YBa" secondAttribute="centerX" id="O2h-wS-88v"/>
+                        <constraint firstItem="2Gx-Pv-acf" firstAttribute="height" secondItem="AIg-QR-icw" secondAttribute="height" id="Tgt-Pt-etw"/>
+                        <constraint firstItem="Ogz-dn-YBa" firstAttribute="trailing" secondItem="AIg-QR-icw" secondAttribute="trailing" constant="42" id="Vpd-oO-yy1"/>
+                        <constraint firstItem="AIg-QR-icw" firstAttribute="top" secondItem="Zw1-NF-8ZJ" secondAttribute="bottom" constant="11" id="eRG-hP-g93"/>
+                        <constraint firstItem="2Gx-Pv-acf" firstAttribute="leading" secondItem="AIg-QR-icw" secondAttribute="leading" id="j3u-dN-I34"/>
+                        <constraint firstItem="2Gx-Pv-acf" firstAttribute="width" secondItem="AIg-QR-icw" secondAttribute="width" id="oam-fN-xij"/>
+                        <constraint firstItem="2Gx-Pv-acf" firstAttribute="trailing" secondItem="AIg-QR-icw" secondAttribute="trailing" id="tYG-ii-hF6"/>
+                        <constraint firstItem="AIg-QR-icw" firstAttribute="leading" secondItem="Ogz-dn-YBa" secondAttribute="leading" constant="42" id="vg0-Mc-jZF"/>
+                        <constraint firstItem="Zw1-NF-8ZJ" firstAttribute="leading" secondItem="CVK-sl-beq" secondAttribute="leading" constant="25" id="xKx-q3-DmL"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="Ogz-dn-YBa"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColorView">
+                            <color key="value" red="0.91764705879999997" green="0.74117647060000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadiusView">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacityView">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CVK-sl-beq" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="N6y-Ri-8ax"/>
+                <constraint firstItem="CVK-sl-beq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="htN-hJ-QOs"/>
+                <constraint firstItem="CVK-sl-beq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="k6N-89-dvZ"/>
+                <constraint firstAttribute="bottom" secondItem="CVK-sl-beq" secondAttribute="bottom" id="zkb-mG-QMK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                    <real key="value" value="30"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="shadowColorView">
+                    <color key="value" red="0.91764705879999997" green="0.74117647060000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="btnChoice1" destination="AIg-QR-icw" id="faJ-gk-EfV"/>
+                <outlet property="btnChoice2" destination="2Gx-Pv-acf" id="e8x-Qb-DPV"/>
+                <outlet property="heightButton" destination="KYC-RY-7U5" id="tPA-ei-uuT"/>
+                <outlet property="lblQuestion" destination="Zw1-NF-8ZJ" id="WEm-Y2-H9k"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="107.8125"/>
+        </view>
+    </objects>
+</document>
